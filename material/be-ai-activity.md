@@ -73,6 +73,52 @@ Follow these 5 steps to get the project running quickly:
    * The responses you obtained
    * Reflections on how the request body influences the LLM output and what you learned about interacting with the API
 
+
+### Task 2: Change the Prompt
+
+1. In your controller, destructure the request body:
+
+   ```js
+   const { age, gender, healthGoal, dietPreference, workoutDays } = req.body;
+   ```
+
+2. Check for missing fields:
+
+   ```js
+   if (!age || !gender || !healthGoal || !dietPreference || !workoutDays) {
+     return res.status(400).json({ message: "All fields are required." });
+   }
+   ```
+
+3. Construct a dynamic prompt using template literals:
+
+   ```js
+   const prompt = `
+     I am a ${age}-year-old ${gender} aiming to ${healthGoal}.
+     My diet preference is ${dietPreference}, and I can work out ${workoutDays} days per week.
+     Please provide a personalized weekly health and fitness plan, including exercise types, duration, and meal suggestions.
+   `;
+   ```
+
+4. Pass the prompt to your Gemini model:
+
+   ```js
+   const result = await model(prompt);
+   res.json({ output: result.text });
+   ```
+
+5. In Postman, send a POST request with this JSON:
+
+   ```json
+   {
+     "age": 35,
+     "gender": "female",
+     "healthGoal": "improve cardiovascular endurance",
+     "dietPreference": "vegetarian",
+     "workoutDays": 4
+   }
+   ```
+
 ---
 
 ## 📖 Overview
