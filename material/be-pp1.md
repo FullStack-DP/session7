@@ -1,4 +1,4 @@
-# Pair Programming Task: - part 2: Building a User Authentication Server
+# Pair Programming Task: - part 1: Building a User Authentication Server
 
 ## Overview
 This guide walks you through building a basic Node.js/Express server that allows users to **register (sign up)** and **login**. We'll use MongoDB for data storage, bcrypt for password security, and Postman for testing.

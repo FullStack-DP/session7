@@ -46,7 +46,7 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 ### Morning: Pair Programming
 
 - User Administration
-  - [Summary](./material/be-pp-summary.md)
+  <!-- - [Summary](./material/be-pp-summary.md) -->
   - [Activity 1](./material/be-pp1.md)
   - [Activity 2](./material/be-pp2.md)  
 
