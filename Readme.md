@@ -43,6 +43,9 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 -----
 
+> [!NOTE]  
+> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
+
 ### Morning: Pair Programming
 
 - Password hashing/ Bcrypt/ User Administration
@@ -52,6 +55,9 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 
 -----
+
+> [!NOTE]  
+> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
 ### Afternoon
 
