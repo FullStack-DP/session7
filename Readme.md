@@ -4,6 +4,7 @@
 > [!IMPORTANT]  
 > - [Homework before Session 8](./material/Homework.md)
 > - [Zoom Recordings](https://metropoliafi-my.sharepoint.com/:f:/g/personal/samiben_metropolia_fi/EramjTltA_BOni_R40opXRQBTQ1_gK6EWP2cbcX5G63ghA)
+> - [Screenshots](./material/Screenshots.md)
 > - The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
 
