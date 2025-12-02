@@ -43,9 +43,6 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 -----
 
-> [!NOTE]  
-> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
-
 ### Morning: Pair Programming
 
 - Password hashing/ Bcrypt/ User Administration
@@ -56,18 +53,17 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 -----
 
+### Afternoon
+
 > [!NOTE]  
 > The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
-### Afternoon
-
 - ~~Draw.io~~
-- [**AI Part 1B**](https://github.com/tx00-resources-en/AI-part1-v2): Demonstrates a clearer modular structure and maintainability, with detailed per‑file explanations and improvement suggestions provided by Bing Copilot in Smart GPT‑5 mode.
+- *AI Part 1B*: Demonstrates a clearer modular structure.
   - [Activity 1 & Presentations](./material/be-ai-activity.md)
 - JSON Web Tokens (JWT) 
   - [Summary](./material/be-jwt.md)
   - [Activity 2](./material/be-jwt-activity.md)
-
 
 ----
 <details>

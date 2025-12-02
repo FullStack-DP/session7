@@ -62,62 +62,72 @@ Follow these 5 steps to get the project running quickly:
 
 ### Task 1
 
-1. Change the prompt and document:
+- Change the prompt and document:
 
    * The prompt you used
    * The response you received
 
-2. Prepare a short group presentation including:
 
-   * The prompts you tried
-   * The responses you obtained
-   * Reflections on how the request body influences the LLM output and what you learned about interacting with the API
+### Task 2: 
+
+**1. Understanding the Data Flow (Group Presentation)**
+
+You will send different payloads to your Express.js API.
+**Your task:**
+
+* Identify **which files need to be modified** when the structure of the payload changes.
+* Prepare a **short group presentation** explaining the **big picture** of how data flows:
+
+  * From **Postman** →
+  * To the **Express server (routes, controller)** →
+  * To the **LLM request** →
+  * And back as a **response**.
+
+Use diagrams if helpful.
+
+**2. Test the API With a New Payload**
+
+Send the following JSON from Postman and document the response you receive:
+
+```json
+{
+  "age": 35,
+  "gender": "female",
+  "healthGoal": "improve cardiovascular endurance",
+  "dietPreference": "vegetarian",
+  "workoutDays": 4
+}
+```
 
 
-### Task 2: Change the Prompt
+**3. Implementation Notes**
 
-1. In your controller, destructure the request body:
+In your **controller**, make sure to:
 
-   ```js
-   const { age, gender, healthGoal, dietPreference, workoutDays } = req.body;
-   ```
+* **Destructure the request body:**
 
-2. Check for missing fields:
+  ```js
+  const { age, gender, healthGoal, dietPreference, workoutDays } = req.body;
+  ```
 
-   ```js
-   if (!age || !gender || !healthGoal || !dietPreference || !workoutDays) {
-     return res.status(400).json({ message: "All fields are required." });
-   }
-   ```
+* **Validate missing fields:**
 
-3. Construct a dynamic prompt using template literals:
+  ```js
+  if (!age || !gender || !healthGoal || !dietPreference || !workoutDays) {
+    return res.status(400).json({ message: "All fields are required." });
+  }
+  ```
 
-   ```js
-   const prompt = `
-     I am a ${age}-year-old ${gender} aiming to ${healthGoal}.
-     My diet preference is ${dietPreference}, and I can work out ${workoutDays} days per week.
-     Please provide a personalized weekly health and fitness plan, including exercise types, duration, and meal suggestions.
-   `;
-   ```
+* Consider **what other files** must be updated when changing fields, such as:
 
-4. Pass the prompt to your Gemini model:
+  * `controller`
+  * LLM request helper function
+  * etc.
 
-   ```js
-   const result = await model(prompt);
-   res.json({ output: result.text });
-   ```
 
-5. In Postman, send a POST request with this JSON:
 
-   ```json
-   {
-     "age": 35,
-     "gender": "female",
-     "healthGoal": "improve cardiovascular endurance",
-     "dietPreference": "vegetarian",
-     "workoutDays": 4
-   }
-   ```
+> You should be able to identify and explain these in your group presentation. If you cannot finish today, please make sure the task is **completed by next session: Monday, 15/12/2025**.
+
 
 ---
 
