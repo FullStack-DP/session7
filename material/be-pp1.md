@@ -43,7 +43,8 @@ project/
 │   └── requireAuth.js      # Optional: protect routes
 ├── package.json            # Dependencies
 ├── .env                    # Environment variables (DO NOT COMMIT)
-└── .env.example            # Example of .env file
+└── .env.example            # Example of .env file                  
+└── .gitignore              # .gitignore 
 ```
 
 ---
@@ -301,6 +302,8 @@ w7-bepp1/
 ├── package.json          # Auto-created by npm init
 ├── package-lock.json     # Auto-created by npm
 └── .env                  # You'll create this next
+└── .env.example            # Example of .env file                  
+└── .gitignore              # .gitignore 
 ```
 
 ---
@@ -314,6 +317,8 @@ PORT=4000
 MONGO_URI=mongodb://localhost:27017/w7-bepp1
 SECRET=76573c5c7b43c500325f985c60d544b5d62b543550ee7aa65f41e33bfdbec5f584ef8725818d6f9d26a7a27c773d868dd1b2d76bb9dbfb6b78c28060eb46120
 ```
+
+> *Ensure that `.env` and `node_modules` are included in your `.gitignore` file.*
 
 **What each variable does:**
 - `PORT`: Port your server runs on (4000)

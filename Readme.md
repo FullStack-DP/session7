@@ -7,6 +7,11 @@
 
 ------
 
+> [!NOTE]  
+> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
+
+------
+
 ### How You'll Learn in This Course
 
 We'll follow a 5-step learning cycle as shown in the figure below:
@@ -40,6 +45,7 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 - JSON Web Tokens (JWT)
 - AI 
+- [Screenshots.md](./material/Screenshots.md)
 
 -----
 
@@ -53,9 +59,6 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 -----
 
 ### Afternoon
-
-> [!NOTE]  
-> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
 - ~~Draw.io~~
 - *AI Part 1B*: Demonstrates a clearer modular structure.

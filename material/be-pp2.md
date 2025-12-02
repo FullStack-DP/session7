@@ -54,7 +54,8 @@ project/
 │   └── requireAuth.js      # Optional: protect routes
 ├── package.json            # Dependencies
 ├── .env                    # Environment variables (DO NOT COMMIT)
-└── .env.example            # Example of .env file
+└── .env.example            # Example of .env file                 
+└── .gitignore              # .gitignore 
 ```
 
 ---
@@ -214,6 +215,8 @@ PORT=4000
 MONGO_URI=mongodb://localhost:27017/w7-bepp1-lab2
 SECRET=76573c5c7b43c500325f985c60d544b5d62b543550ee7aa65f41e33bfdbec5f584ef8725818d6f9d26a7a27c773d868dd1b2d76bb9dbfb6b78c28060eb46120
 ```
+
+> *Ensure that `.env` and `node_modules` are included in your `.gitignore` file.*
 
 **MongoDB Setup:**
 
