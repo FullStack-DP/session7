@@ -4,11 +4,8 @@
 > [!IMPORTANT]  
 > - [Homework before Session 8](./material/Homework.md)
 > - [Zoom Recordings](https://metropoliafi-my.sharepoint.com/:f:/g/personal/samiben_metropolia_fi/EramjTltA_BOni_R40opXRQBTQ1_gK6EWP2cbcX5G63ghA)
+> - The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
-------
-
-> [!NOTE]  
-> The class scheduled for Tuesday, December 9th will **be rescheduled to Monday, December 15th**.
 
 ------
 
@@ -45,7 +42,7 @@ We'll follow a 5-step learning cycle as shown in the figure below:
 
 - JSON Web Tokens (JWT)
 - AI 
-- [Screenshots.md](./material/Screenshots.md)
+- [Screenshots](./material/Screenshots.md)
 
 -----
 
