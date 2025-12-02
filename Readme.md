@@ -50,7 +50,6 @@ We'll follow a 5-step learning cycle as shown in the figure below:
   - [Activity 1](./material/be-pp1.md)
   - [Activity 2](./material/be-pp2.md)  
 
-
 -----
 
 ### Afternoon
